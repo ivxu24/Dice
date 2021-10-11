@@ -2,26 +2,26 @@ Die carl;
 void setup()
 {
   noLoop();
-  size(400, 400);
+  size(500,500);
 }
 void draw ()
 {
   background(211, 156, 156);
   int sum = 0;
-  for (int y = 0; y <=600; y+=50)
+  for (int y = 0; y <=400; y+=50)
   {
-    for (int x = 0; x<=700; x+=50)
+    for (int x = 0; x<=500; x+=50)
     {
       Die carl = new Die(x, y);
       carl.show();
       carl.roll();
-      textSize(50);
+      textSize(40);
       if (carl.dots <=6)
       sum = sum + carl.dots;
     }
-    
   }
-  text("Total: "+ sum, 220, 700);
+  text("Total: "+ sum, 150,485);
+
 }
 void mousePressed()
 {
