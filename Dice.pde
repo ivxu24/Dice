@@ -13,8 +13,9 @@ void draw ()
       if (carl.dots <=6)
       sum = sum + carl.dots;
     }
-    text("Total: "+ sum, 220, 700);
+    
   }
+  text("Total: "+ sum, 220, 700);
 }
 void mousePressed()
 {
