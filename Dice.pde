@@ -1,3 +1,9 @@
+Die carl;
+void setup()
+{
+  noLoop();
+  size(700, 700);
+}
 void draw ()
 {
   background(211, 156, 156);
