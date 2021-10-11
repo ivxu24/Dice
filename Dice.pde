@@ -2,7 +2,7 @@ Die carl;
 void setup()
 {
   noLoop();
-  size(500, 500);
+  size(400, 400);
 }
 void draw ()
 {
